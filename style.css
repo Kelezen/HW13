@@ -1,0 +1,21 @@
+.anim-rect {
+    fill: blue;
+    stroke: black;
+    stroke-width: 5;
+    animation: colorChange 2s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+        fill: blue;
+        stroke: black;
+    }
+    50% {
+        fill: red;
+        stroke: yellow;
+    }
+    100% {
+        fill: green;
+        stroke: purple;
+    }
+}
